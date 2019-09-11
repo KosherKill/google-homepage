@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
+    <meta charset="utf-8">
     <link href="style.css" rel="stylesheet" type="text/css">
-
+    <title>MyGoogle</title>
   </head>
 
 
@@ -32,11 +33,22 @@
     </header>
 
     <main>
+        <div class="container">
+            <div class="googleLogo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            </div>
+            <div class="searchbar">
+                <form class="form" action="searchScript.php" method="post">
+                  <input class="search" type = "text">
+                  <br>
+                  <input id="googleSearch" type ="submit" value="Google Search">
+                  <input id="feelingLucky" type ="submit" value="I'm Feeling Lucky">
 
-        <div class="googleLogo">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+
+                  
+                </form>
+            </div>
         </div>
-
 
     </main>
     
