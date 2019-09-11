@@ -1,0 +1,23 @@
+/*Stylesheet for google-homepage.html*/
+
+/*Navigation style*/  
+nav{padding:0px;
+    margin:0px;
+    display:block;
+    }
+
+.navLeft{float:left;}
+.navRight{float: right;}
+
+
+ul{list-style:none;
+  text-align: center;
+  display:inline-block}
+
+li{display:inline-block;}
+
+#navGridImage {padding: 0px;
+  width: 30px;}
+
+/*Main div*/
+.googleLogo{width:100%;}
