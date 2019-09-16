@@ -1,14 +1,15 @@
 /*Stylesheet for google-homepage.html*/
 
-
+*{margin:0px;
+  padding:0px;}
 
 
 /*Navigation style*/  
-nav{padding:0px;
-    margin:0px;
-    display:block;
+nav{display:block;
     font-size: 13px;
-    -moz-appearance: none;
+    padding-top:20px;
+    padding-right:15px;
+
     }
 
 .navLeft{float:left;}
@@ -17,25 +18,22 @@ nav{padding:0px;
 
 ul{list-style:none;
   display:inline-block;
-  margin:0px;
-  padding:0px;
-  padding-top: 15px}
+  }
 
 li{display:inline-block;
-   padding:0px;
-   margin:0px;
-   padding-left:15px;}
+   padding-left:15px;
+   }
 
-#navGridImage {padding: 0px;
-               margin:0px;
-               width: 25px;
-               height: 25px;}
+#navGridImage {width: 25px;
+               height: 25px;
+               }
 
 /*Sign in button*/
 button{background-color:rgb(67, 133, 247);
       border-color:rgb(67, 133, 247);
       font-weight:bold;
-      font-size:16px;}
+      font-size:16px;
+      }
 
 
 /*link styling*/
