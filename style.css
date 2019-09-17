@@ -7,14 +7,14 @@
 /*Navigation style*/  
 nav{display:block;
     font-size: 13px;
-    padding-top:20px;
+    padding-top:30px;
     padding-right:15px;
 
     }
 
-.navLeft{float:left;}
+.navLeft{float:left;padding-top:13px;}
 .navRight{float: right;}
-
+.navContainer{padding-top:15px;}
 
 ul{list-style:none;
   display:inline-block;
@@ -25,7 +25,8 @@ li{display:inline-block;
    }
 
 #navGridImage {width: 25px;
-               height: 25px;
+               position: relative;
+               top: 7px;
                }
 
 /*Sign in button*/
