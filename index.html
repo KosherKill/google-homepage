@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <title>MyGoogle</title>
+    <title>MyGoogleIndex</title>
   </head>
 
 
@@ -37,13 +37,18 @@
             <div class="googleLogo">
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
             </div>
-            <div class="searchbar">
-                <form class="form" action="searchScript.php" method="post">
+            <div class="searchContainer">
+              <div>
+                  <img id="eyeglass" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-128.png" alt="eyeglass">
+              </div>  
+              <div>    
                   <input class="search" type = "text">
-                  <br>
-                  <input id="googleSearch" type ="submit" value="Google Search">
-                  <input id="feelingLucky" type ="submit" value="I'm Feeling Lucky">
-                </form>
+                </div>
+            </div>
+            <div class="searchButtons">
+              <br>
+              <input id="googleSearch" type ="submit" value="Google Search">
+              <input id="feelingLucky" type ="submit" value="I'm Feeling Lucky">
             </div>
         </div>
     </main>
