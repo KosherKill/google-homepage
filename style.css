@@ -5,29 +5,27 @@
 
 
 /*Navigation style*/  
-nav{display:block;
+nav{display: inline-flex;
     font-size: 13px;
-    padding-top:30px;
     padding-right:15px;
-
+    width:100%;
     }
 
-.navLeft{float:left;padding-top:13px;}
-.navRight{float: right;}
-.navContainer{padding-top:15px;}
+.navLeft{justify-content: flex-start;
+        }
+.navRight{justify-items: flex-end;}
+
 
 ul{list-style:none;
-  display:inline-block;
   }
 
 li{display:inline-block;
    padding-left:15px;
+   align-items:center;
    }
+.navRight li{align-content:flex-end;}
 
-#navGridImage {width: 25px;
-               position: relative;
-               top: 7px;
-               }
+#navGridImage {width: 25px;}
 
 /*Sign in button*/
 button{background-color:rgb(67, 133, 247);
@@ -73,8 +71,17 @@ input[type="text"]{text-align:left;
 
 #eyeglass{height:25px;
           padding-top:10px;
-          padding-left:7px;}
+          padding-left:7px;
+          padding-right:5px;}
 
 input[type="submit"]{height:36px;}
 
-
+footer{position:absolute;
+                width:100%;
+                bottom:0;
+              }
+.footerContainer{display:flex;
+               width:100%;
+               padding-top:15px;
+               padding-bottom:15px;
+              background-color:lightgrey;}
